@@ -1,0 +1,33 @@
+/* Contact.css */
+
+.contact-page {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .contact-info,
+  .contact-form,
+  .map-section {
+    margin-bottom: 40px;
+  }
+  
+  .contact-info h2,
+  .contact-form h2,
+  .map-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p,
+  .contact-form p,
+  .map-section p {
+    font-size: 1.2em;
+    color: #777;
+  }
+  
+  .map-section iframe {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  

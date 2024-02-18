@@ -1,0 +1,48 @@
+/* AboutUs.css */
+
+.history-section {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .history-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .history-events {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .history-event {
+    width: 30%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .history-event:hover {
+    transform: scale(1.05);
+  }
+  
+  .history-event img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .history-event h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .history-event p {
+    font-size: 1.2em;
+    color: #777;
+  }
+  

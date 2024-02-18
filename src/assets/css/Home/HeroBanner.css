@@ -1,0 +1,42 @@
+/* HeroBanner.css */
+
+.hero-banner {
+    position: relative;
+    height: 400px; /* Set a fixed height or adjust as needed */
+    overflow: hidden;
+    margin-top: -30px;
+
+  }
+  
+  .hero-video {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    object-fit: cover;
+  }
+  
+  .hero-text {
+    position: absolute;
+    bottom: 0; /* Display text at the bottom of the hero banner */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff; /* Adjust text color based on your design */
+    opacity: 0; /* Initially set text opacity to 0 */
+    transition: opacity 1s ease-in-out; /* Add a transition effect for opacity */
+  }
+  
+  .hero-text.show {
+    opacity: 1; /* When the 'show' class is added, set opacity to 1 */
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    /* margin-left: 300px; */
+  }
+  
+  .hero-text p {
+    font-size: 1.2em;
+  }
+  
